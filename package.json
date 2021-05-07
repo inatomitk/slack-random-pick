@@ -1,0 +1,21 @@
+{
+  "name": "slack-random-pick",
+  "version": "1.0.0",
+  "description": "Pick random user at slack reply.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inatomitk/slack-random-pick"
+  },
+  "author": "inatomitk",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6"
+  },
+  "devDependencies": {
+    "serverless": "^2.40.0"
+  }
+}
