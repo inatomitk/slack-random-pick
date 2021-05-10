@@ -1,0 +1,15 @@
+service: slack-random-pick
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: #REGION
+  stage: ${opt:stage, 'prod'}
+  role: #ROLE
+  timeout: 15
+
+functions:
+  main:
+    handler: index.main
+    events:
+      - http: POST /main
